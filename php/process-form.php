@@ -2,12 +2,12 @@
 if (isset($_REQUEST['firstname'],$_REQUEST['email'])) {
       
     $firstname = $_REQUEST['firstname'];
-	$lastname = $_REQUEST['lastname'];
+	  $lastname = $_REQUEST['lastname'];
     $email = $_REQUEST['email'];
     $message = $_REQUEST['message'];
       
     // Set your email address where you want to receive emails. 
-    $to = 'youremail@mail.com';
+    $to = 'info@quadflex.in';
       
     $subject = 'Contact Request From Website';
     $headers = "From: ".$firstname." <".$email."> \r\n";
